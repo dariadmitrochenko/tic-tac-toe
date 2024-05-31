@@ -1,12 +1,9 @@
-import "./App.css";
+import TicTacToe from "./components/TicTacToe";
+import "./App.css"
 
 function App() {
   return (
-    <>
-    <div>
-      Tic tac toe
-    </div>
-    </>
+    <TicTacToe />
   )
 }
 export default App
